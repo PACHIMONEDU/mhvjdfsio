@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
   }
 });
 window.onbeforeunload = function (e) {
-  const confirmationMessage = "Are you sure you want to leave this page?";
+  const confirmationMessage = "Are you sure you want to leave this page?(select cancel)";
   e.returnValue = confirmationMessage;
   return confirmationMessage;
 };
